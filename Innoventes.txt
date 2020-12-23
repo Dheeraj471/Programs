@@ -1,0 +1,13 @@
+@RestController
+class JukeBox{
+
+@RequestMapping("/music")
+public String musicAlbums(){
+return "Album name+":SareGama"+Date of release+":21 Dec 20"+Genre+"HipHop"+Price+"100000"+Description+"Lata Remix Song";
+}
+
+@RequestMapping("/musician")
+public String musician(){
+return name+"Himesh"+Musician type+"instrumental";
+}
+}
